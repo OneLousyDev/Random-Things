@@ -1,0 +1,22 @@
+modLoader="javafml"
+loaderVersion="[35,)"
+license="MIT"
+[[mods]]
+modId="randomthings"
+version="${file.jarVersion}"
+displayName="RandomThings"
+credits="Lumien for the original RandomThings mod"
+authors="OneLousyDev"
+description='''An unofficial port of RandomThings to modern Minecraft versions!'''
+[[dependencies.randomthings]]
+    modId="forge"
+    mandatory=true
+    versionRange="[36,)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.randomthings]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.16.5,1.17)"
+    ordering="NONE"
+    side="BOTH"
